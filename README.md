@@ -26,11 +26,17 @@
 
 - [sqli.py](https://github.com/barkadosh1/Cyber-Security-Projects/blob/master/sqli.py)
 
-### Topic 3
+### Padding Oracle and Denial of Service Attacks
 
-- link to report
+- [maul.py](https://github.com/barkadosh1/Cyber-Security-Projects/blob/master/maul.py)
 
-- link to code
+- [poattack.py](https://github.com/barkadosh1/Cyber-Security-Projects/blob/master/poattack.py)
+
+- [encr_decr.py](https://github.com/barkadosh1/Cyber-Security-Projects/blob/master/encr_decr.py)
+
+- [collisions.py](https://github.com/barkadosh1/Cyber-Security-Projects/blob/master/collisions.py)
+
+- [hashdos.py](https://github.com/barkadosh1/Cyber-Security-Projects/blob/master/hashdos.py)
 
 ### Topic 4
 
