@@ -1,10 +1,16 @@
 # Cyber-Security-Projects
 
-### Topic 1
+### Credential Stuffing (Hashed, Salted) Attacks and Countermeasures
 
-- link to report
+- [stuff.py](https://github.com/barkadosh1/Cyber-Security-Projects/blob/master/stuff.py)
 
-- link to code
+- [brute.py](https://github.com/barkadosh1/Cyber-Security-Projects/blob/master/brute.py)
+
+- [login.py](https://github.com/barkadosh1/Cyber-Security-Projects/blob/master/login.py)
+
+- [user.py](https://github.com/barkadosh1/Cyber-Security-Projects/blob/master/user.py)
+
+- [breaches.py](https://github.com/barkadosh1/Cyber-Security-Projects/blob/master/breaches.py)
 
 ### Topic 2
 
