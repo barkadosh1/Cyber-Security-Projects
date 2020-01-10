@@ -38,8 +38,12 @@
 
 - [hashdos.py](https://github.com/barkadosh1/Cyber-Security-Projects/blob/master/hashdos.py)
 
-### Topic 4
+### Stack Smashing Exploits
 
-- link to report
+- [sploit0.c](https://github.com/barkadosh1/Cyber-Security-Projects/blob/master/sploit0.c)
 
-- link to code
+- [sploit1.c](https://github.com/barkadosh1/Cyber-Security-Projects/blob/master/sploit1.c)
+
+- [sploit2.c](https://github.com/barkadosh1/Cyber-Security-Projects/blob/master/sploit2.c)
+
+- [sploit4.c](https://github.com/barkadosh1/Cyber-Security-Projects/blob/master/sploit4.c)
