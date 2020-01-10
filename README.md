@@ -12,11 +12,19 @@
 
 - [breaches.py](https://github.com/barkadosh1/Cyber-Security-Projects/blob/master/breaches.py)
 
-### Topic 2
+### CSRF, XSS, and SQL Injection Attacks and Countermeasures 
 
-- link to report
+- [csrf.html](https://github.com/barkadosh1/Cyber-Security-Projects/blob/master/csrf.html)
 
-- link to code
+- [profile_html.html](https://github.com/barkadosh1/Cyber-Security-Projects/blob/master/profile_html.html)
+
+- [pay.py](https://github.com/barkadosh1/Cyber-Security-Projects/blob/master/pay.py)
+
+- [xss_url.txt](https://github.com/barkadosh1/Cyber-Security-Projects/blob/master/xss_url.txt)
+
+- [profile_worm.txt](https://github.com/barkadosh1/Cyber-Security-Projects/blob/master/profile_worm.txt)
+
+- [sqli.py](https://github.com/barkadosh1/Cyber-Security-Projects/blob/master/sqli.py)
 
 ### Topic 3
 
